@@ -13,7 +13,7 @@
             <Keywords name="Numbers, suffix1">f16 f32 f64 isize i8 i16 i32 i64 usize u8 u16 u32 u64 bool str String</Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; ! &apos; $</Keywords>
+            <Keywords name="Operators1">( )  [ ] ... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; &apos; $ ! ?</Keywords>
             <Keywords name="Operators2">_</Keywords>
             <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -58,7 +58,7 @@
             <WordsStyle name="DELIMITERS5" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
         </Styles>
     </UserLang>
 </NotepadPlus>
