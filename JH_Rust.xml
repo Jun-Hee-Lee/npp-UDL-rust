@@ -2,7 +2,7 @@
     <UserLang name="Rust" ext="rs" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
-            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
@@ -13,7 +13,7 @@
             <Keywords name="Numbers, suffix1">f16 f32 f64 isize i8 i16 i32 i64 usize u8 u16 u32 u64 bool str String</Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">( )  [ ] ... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; &apos; $ ! ?</Keywords>
+            <Keywords name="Operators1">( )  [ ] ... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; &apos; $ ?</Keywords>
             <Keywords name="Operators2">_</Keywords>
             <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
