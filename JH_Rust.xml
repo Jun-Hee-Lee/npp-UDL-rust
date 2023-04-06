@@ -1,19 +1,19 @@
 <NotepadPlus>
     <UserLang name="Rust" ext="rs" udlVersion="2.1">
         <Settings>
-            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
-            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00// 01 02((EOL)) 03/* 04*/</Keywords>
-            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix1">0b</Keywords>
             <Keywords name="Numbers, prefix2"></Keywords>
             <Keywords name="Numbers, extras1"></Keywords>
             <Keywords name="Numbers, extras2"></Keywords>
-            <Keywords name="Numbers, suffix1">f16 f32 f64 isize i8 i16 i32 i64 usize u8 u16 u32 u64 bool str String</Keywords>
+            <Keywords name="Numbers, suffix1">f16 f32 f64 isize i8 i16 i32 i64 u8 u16 u32 u64 bool str String usize _usize</Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">( )  [ ] ... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; &apos; $ ?</Keywords>
+            <Keywords name="Operators1">( ) [ ] ... . , ^ % &gt; &lt; = + - | : =&gt; &gt;&gt; &lt;&lt; ; :: * &amp; &apos; $ ?</Keywords>
             <Keywords name="Operators2">_</Keywords>
             <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -30,14 +30,14 @@
             <Keywords name="Keywords4"></Keywords>
             <Keywords name="Keywords5">macro_rules! fmt! format! env! try! stringify! include! include_str! include_bin! error! warn! info! debug! assert! assert_eq! println! print! write! panic! vec! ident expr ty pat block&#x000D;&#x000A;Vec Option None</Keywords>
             <Keywords name="Keywords6"></Keywords>
-            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords7">0x 0b</Keywords>
             <Keywords name="Keywords8">\&apos; &amp;\&apos;</Keywords>
-            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03#[ 04 05] 06#![ 07 08] 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03#[ 04 05] 06#![ 07 08] 09 10 11 12 13 14 15 16 17 18// 19 20((EOL)) 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="256" />
-            <WordsStyle name="LINE COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50331904" />
+            <WordsStyle name="LINE COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50331712" />
             <WordsStyle name="NUMBERS" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS1" fgColor="AA0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS2" fgColor="AA0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
@@ -45,7 +45,7 @@
             <WordsStyle name="KEYWORDS4" fgColor="AA0000" bgColor="EAEAEA" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="7" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS8" fgColor="FF80C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="OPERATORS" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
             <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="1" nesting="0" />
@@ -54,10 +54,10 @@
             <WordsStyle name="DELIMITERS1" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS2" fgColor="750000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS3" fgColor="750000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS4" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFF80" fontName="" fontStyle="0" nesting="117702647" />
             <WordsStyle name="DELIMITERS5" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="FF0000" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
         </Styles>
     </UserLang>
