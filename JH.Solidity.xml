@@ -1,0 +1,73 @@
+<NotepadPlus>
+    <UserLang name="Solidity" ext="sol" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02((EOL)) 03/* 04*/ 03/** 04*/</Keywords>
+            <Keywords name="Numbers, prefix1">0x</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">wei gwei ether seconds minutes hours days weeks years</Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) [ ] { } . , ; : ? = + - * / % &gt; &lt; ! ^ &amp; | ~ == != &lt;= &gt;= += -= *= /= %= &amp;= |= ^= &lt;&lt; &gt;&gt; ++ -- &amp;&amp; || =&gt;</Keywords>
+            <Keywords name="Operators2">_</Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            
+            <Keywords name="Keywords1">contract library interface abstract function constructor modifier event struct enum if else for while do break continue return emit try catch assembly let new delete type unchecked</Keywords>
+            
+            <Keywords name="Keywords2">public private internal external pure view payable constant immutable virtual override indexed memory storage calldata is</Keywords>
+            
+            <Keywords name="Keywords3">bool string address mapping uint int byte bytes void uint8 uint16 uint32 uint64 uint128 uint256 int8 int16 int32 int64 int128 int256 bytes1 bytes32</Keywords>
+            
+            <Keywords name="Keywords4">this super</Keywords>
+            
+            <Keywords name="Keywords5">msg block tx require assert revert keccak256 sha256 ripemd160 ecrecover addmod mulmod selfdestruct gasleft blockhash abi</Keywords>
+            
+            <Keywords name="Keywords6">pragma solidity import from as using</Keywords>
+            
+            <Keywords name="Keywords7">0x</Keywords>
+            
+            <Keywords name="Keywords8"></Keywords>
+            
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03&apos; 04\ 05&apos; 06// 07 08((EOL)) 09 10 11 12 13 14 15</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50331904" />
+            <WordsStyle name="LINE COMMENTS" fgColor="AAAAAA" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50331712" />
+            <WordsStyle name="NUMBERS" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="AA0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="AA0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="AA0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="AA0000" bgColor="EAEAEA" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FF80C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="750000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="750000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFF80" fontName="" fontStyle="0" nesting="117702647" />
+            <WordsStyle name="DELIMITERS5" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="FF0000" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
